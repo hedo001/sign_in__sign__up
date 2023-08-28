@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.forms__wraper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+  padding: 20rem 20rem;
+  background-color: #87aaf6;
+}
+
+/* sign in */
+
+.signin {
+  width: 500px;
+  background-color: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  position: relative;
+  background-color: rgb(86, 86, 243);
+  color: #fff;
+}
+.header button {
+  position: absolute;
+  left: 90%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.signin__input,
+.signup__input {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.input__style {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 20px;
+  border: 1px solid rgb(86, 86, 243);
+}
+.checkbox__style {
+  display: flex;
+  column-gap: 10px;
+  margin: 20px 0;
+}
+input[type="button"] {
+  height: 35px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  border: none;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(86, 86, 243);
+  color: #fff;
+  cursor: pointer;
+}
+.signin__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin__links a {
+  text-decoration: none;
+  color: black;
+}
+input::placeholder {
+  font-size: 15px;
+}
+/*  sign up */
+.signup__input {
+  background-color: #fff;
+  width: 500px;
+}
